@@ -4,7 +4,7 @@
 
 El sitio funciona como la carta de presentación oficial de **Bryan Espinoza**, integrando:
 
-- **Diseño Premium**: Uso de **Glassmorphism**, gradientes armónicos y tipografía moderna (Google Fonts).
+- **Diseño**: Uso de **Glassmorphism**, gradientes armónicos y tipografía moderna (Google Fonts).
 - **Sección de Experiencia**: Línea de tiempo detallada con formación académica y trayectoria profesional.
 - **Sección de Proyectos**: Galería de proyectos destacados con tarjetas interactivas.
 - **Micro-interacciones**: Transiciones suaves y efectos hover que mejoran la experiencia de usuario (UX).
@@ -27,7 +27,7 @@ A continuación se muestra una referencia visual del diseño actual:
 
 ## 🔗 Enlace al Proyecto
 
-- **Sitio en vivo**: [Ver Portfolio](https://landingpage14bz.netlify.app/)
+- **Sitio en vivo**: [Ver Proyecto](https://landingpage14bz.netlify.app/)
 
 ## 📈 Estado y Evolución
 
