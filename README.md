@@ -2,8 +2,6 @@
 
 ## 🚀 Descripción del Proyecto
 
-Esta landing page es un proyecto personal creado para practicar y consolidar conocimientos de **HTML5** y **CSS3**, así como el uso de herramientas de desarrollo modernas como **Git**, **GitHub** y **Warp**.
-
 El sitio funciona como la carta de presentación oficial de **Bryan Espinoza**, integrando:
 
 - **Diseño Premium**: Uso de **Glassmorphism**, gradientes armónicos y tipografía moderna (Google Fonts).
