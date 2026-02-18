@@ -1,128 +1,208 @@
-<!DOCTYPE html>
+<!doctype html>
 <!-- Language  -->
 <html lang="es">
-<!-- Head  -->
+  <!-- Head  -->
 
-<head>
-  <!-- Metadata -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Bryan Espinoza" />
-  <meta name="description"
-    content="Este es un proyecto para practicar mi nivel de html y css con herramientas como git, github y Warp" />
-  <meta name="keywords" content="Landing Page, 14BryanEspinoza, Practica" />
-  <!-- Style -->
-  <link rel="stylesheet" href="Css/styles.css" />
-  <!-- Icon -->
-  <link rel="shortcut icon" href="assets/img/code.png" type="image/x-icon" />
-  <!-- Title -->
-  <title>14BryanEspinoza</title>
-</head>
+  <head>
+    <!-- Metadata -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bryan Espinoza" />
+    <meta
+      name="description"
+      content="Este es un proyecto para practicar mi nivel de html y css con herramientas como git, github y Warp"
+    />
+    <meta name="keywords" content="Landing Page, 14BryanEspinoza, Practica" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style -->
+    <link rel="stylesheet" href="Css/styles.css" />
+    <!-- Icon -->
+    <link rel="shortcut icon" href="assets/code.png" type="image/x-icon" />
+    <!-- Title -->
+    <title>14BryanEspinoza</title>
+  </head>
 
-<!-- Body  -->
+  <!-- Body  -->
 
-<body>
-  <!-- Nav -->
-  <nav class="nav">
-    <div class="nav__logo">
-      <h1>B14S</h1>
-    </div>
-    <ul class="nav__list">
-      <li class="list__item">
-        <a href="#about">Sobre Mi</a>
-      </li>
-      <li>
-        <a href="#skills">Habilidades</a>
-      </li>
-      <li>
-        <a href="#contact">Contacto</a>
-      </li>
-    </ul>
-  </nav>
-  <!-- Header -->
-  <header class="header">
-    <div class="header__text">
-      <h2>Desarrollador Frontend</h2>
-      <p>
-        Soy <span>Bryan Espinoza</span> desarrollador frontend con solidas
-        base en <strong>ecosistemas modernos JavaScript</strong> enfocado en
-        construir aplicaciones web escalables, mantenibles y centradas en el
-        usuario
-      </p>
-      <div class="text__links">
+  <body>
+    <!-- Nav -->
+    <nav class="nav">
+      <div class="nav__logo">
+        <h1>B14S</h1>
+      </div>
+      <ul class="nav__list">
+        <li><a href="#about">Sobre Mí</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__text">
+        <h2>Desarrollador Frontend</h2>
+        <p>
+          Soy <span>Bryan Espinoza</span> desarrollador frontend con solidas
+          base en <strong>ecosistemas modernos JavaScript</strong> enfocado en
+          construir aplicaciones web escalables, mantenibles y centradas en el
+          usuario
+        </p>
+        <div class="text__links">
+          <a href="https://github.com/14BryanEspinoza" target="_blank"
+            >GitHub</a
+          >
+          <a href="https://www.linkedin.com/in/14bryanespinoza/" target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+      <div class="header__img">
+        <img src="assets/Developer.jpg" alt="developer" />
+      </div>
+    </header>
+    <!-- Tech -->
+    <section class="tech">
+      <p>JavaScript | React | Astro</p>
+    </section>
+    <!-- About -->
+    <section id="about" class="about">
+      <h2>Sobre Mí</h2>
+      <div class="about__container">
+        <p>
+          Soy egresado de la carrera de Ing. En Sistemas, con una base sólida de
+          tecnologías frontend. Estoy evolucionando activamente hacia un perfil
+          de desarrollador full stack especializado en JavaScript, integrando
+          tecnologías backend, bases de datos e implementación en la nube en
+          proyectos reales.
+        </p>
+        <div class="container__progress">
+          <h3>Tecnologías en Proceso</h3>
+          <div class="progress__badged">
+            <span class="badged badged-js">JavaScript</span>
+            <span class="badged badged-ts">TypeScript</span>
+            <span class="badged badged-react">React</span>
+            <span class="badged badged-astro">Astro</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="experience">
+      <h2>Experiencia y Educación</h2>
+      <div class="experience__list">
+        <article class="experience-item">
+          <span class="date">2020 - 2025</span>
+          <h3>Ingeniería en Sistemas</h3>
+          <p>
+            Egresado de la carrera de Ingeniería en Sistemas, con una sólida
+            base en tecnologías frontend.
+          </p>
+        </article>
+        <article class="experience-item">
+          <span class="date">2022 - Proyectos Reales</span>
+          <h3>Web Developer</h3>
+          <p>
+            Desarrollo de landing pages y aplicaciones web optimizadas para
+            clientes locales.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <h2>Proyectos Destacados</h2>
+      <div class="projects__grid">
+        <article class="project-card">
+          <img
+            src="assets/img/preview.png"
+            alt="Vista previa del proyecto Landing Page"
+            class="project-card__img"
+          />
+          <div class="project-card__content">
+            <h3>Landing Page</h3>
+            <p>
+              Un portfolio premium construido con HTML5 y CSS3 puro, aplicando
+              Glassmorphism y diseño responsivo.
+            </p>
+            <div class="text__links">
+              <a href="https://landingpage14bz.netlify.app/" target="_blank"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/14BryanEspinoza/landingPage"
+                target="_blank"
+                >Código</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills">
+      <h2>Tecnologías</h2>
+      <div class="skills__grid">
+        <p>Antigravity</p>
+        <p>Warp</p>
+        <p>Git</p>
+        <p>GitHub</p>
+        <p>HTML5</p>
+        <p>CSS3</p>
+        <p>BEM Methodology</p>
+        <p>Responsive Design</p>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2>Hablemos de tu Proyecto</h2>
+      <form action="#" class="form">
+        <div class="form__group">
+          <label for="nombre">Nombre Completo</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre artístico o real"
+            required
+          />
+        </div>
+        <div class="form__group">
+          <label for="email">Correo Electrónico</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value="14bryanespinoza@gmail.com"
+            readonly
+          />
+        </div>
+        <div class="form__group">
+          <label for="mensaje">Tu Mensaje</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            placeholder="¿Cómo puedo ayudarte a llevar tu idea a la web?"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__link">
         <a href="https://github.com/14BryanEspinoza">GitHub</a>
         <a href="https://www.linkedin.com/in/14bryanespinoza/">LinkedIn</a>
       </div>
-    </div>
-    <div class="header__img">
-      <img src="assets/img/Developer.jpg" alt="developer" />
-    </div>
-  </header>
-  <!-- Tech -->
-  <section class="tech">
-    <p>JavaScript | React | Astro</p>
-  </section>
-  <!-- About -->
-  <section class="about">
-    <h2>Sobre Mi</h2>
-    <div class="about__container">
-      <p>
-        Soy un estudiante de 5to año de la carrera de Ing. En Sistemas,
-        actualmente con una base solida de tecnológicas fronted. Estoy evolucionando activamente hacia
-        un perfil de desarrollador full stack especializado en JavaScript,
-        integrando tecnologías back-end, bases de datos e implementación en la
-        nube en proyectos reales.
-      </p>
-      <div class="container__progress">
-        <h3>Tecnologías en Proceso</h3>
-        <div class="progress__badged">
-          <span class="badged badged-js">JavaScript</span>
-          <span class="badged badged-ts">TypeScript</span>
-          <span class="badged badged-react">React</span>
-          <span class="badged badged-astro">Astro</span>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Skills -->
-  <section class="skills">
-    <h2>Habilidades</h2>
-    <div class="skills__grid">
-      <p>VSC</p>
-      <p>Warp</p>
-      <p>Git</p>
-      <p>Github</p>
-      <p>Html</p>
-      <p>Css</p>
-    </div>
-  </section>
-  <!-- Contact -->
-  <section class="contact">
-    <h2>Contácteme</h2>
-    <form action="#" class="from">
-      <div class="from__group">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="John Doe">
-      </div>
-      <div class="from__group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" value="14bryanespinoza@gmail.com" readonly>
-      </div>
-      <div class="from__group">
-        <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
-      </div>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer__link">
-      <a href="https://github.com/14BryanEspinoza">GitHub</a>
-      <a href="https://www.linkedin.com/in/14bryanespinoza/">LinkedIn</a>
-    </div>
-    <p>Copyright &copy; 2026 - 14BryanEspinoza</p>
-  </footer>
-</body>
-
+      <p>Copyright &copy; 2026 - 14BryanEspinoza</p>
+    </footer>
+  </body>
 </html>

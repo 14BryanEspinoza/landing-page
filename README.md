@@ -1,44 +1,47 @@
 # Landing Page - 14BryanEspinoza
 
-## Descripción del proyecto
+## 🚀 Descripción del Proyecto
 
 Esta landing page es un proyecto personal creado para practicar y consolidar conocimientos de **HTML5** y **CSS3**, así como el uso de herramientas de desarrollo modernas como **Git**, **GitHub** y **Warp**.
 
-El sitio funciona como una carta de presentación de **Bryan Espinoza**, desarrollador frontend, e incluye:
+El sitio funciona como la carta de presentación oficial de **Bryan Espinoza**, integrando:
 
-- Sección de navegación con anclajes internos.
-- Hero principal con una breve descripción profesional y enlaces a GitHub y LinkedIn.
-- Sección de tecnologías en las que se está especializando (JavaScript, TypeScript, React, Astro).
-- Sección "Sobre mí" con una descripción más detallada del perfil.
-- Sección de habilidades técnicas (VSC, Warp, Git, GitHub, HTML y CSS).
-- Formulario de contacto con nombre, email y mensaje.
-- Footer con enlaces a redes y derechos de autor.
+- **Diseño Premium**: Uso de **Glassmorphism**, gradientes armónicos y tipografía moderna (Google Fonts).
+- **Sección de Experiencia**: Línea de tiempo detallada con formación académica y trayectoria profesional.
+- **Sección de Proyectos**: Galería de proyectos destacados con tarjetas interactivas.
+- **Micro-interacciones**: Transiciones suaves y efectos hover que mejoran la experiencia de usuario (UX).
+- **Optimización Mobile-First**: Layout totalmente responsivo y adaptado para dispositivos táctiles.
 
-## Tecnologías usadas
+## 🛠️ Tecnologías y Metodologías
 
-- **HTML5**: estructura semántica de la página.
-- **CSS3**: estilos, sistema de grid, badges y diseño responsivo con media queries.
-- **Git**: control de versiones del proyecto.
-- **GitHub**: alojamiento del repositorio remoto.
-- **Warp**: terminal utilizada en el flujo de trabajo de desarrollo.
+- **HTML5**: Estructura semántica avanzada para SEO y accesibilidad.
+- **CSS3 Puro**:
+  - **Variables CSS**: Sistema de diseño centralizado para colores, espacios y fuentes.
+  - **Flexbox & Grid**: Layouts robustos y modernos sin frameworks externos.
+  - **BEM Methodology**: Nomenclatura de clases estricta (`bloque__elemento--modificador`) para un CSS mantenibles.
+- **Git & GitHub**: Control de versiones y despliegue continuo.
 
-## Captura o GIF
+## 📱 Vista Previa
 
-A continuación se muestra una imagen de referencia del proyecto (puedes reemplazarla por una captura de pantalla o un GIF del sitio en producción):
+A continuación se muestra una referencia visual del diseño actual:
 
-![Vista previa de la landing page](assets/img/preview.png)
+![Vista previa de la landing page](assets/prewiev.png)
 
-## Enlace al sitio publicado
+## 🔗 Enlace al Proyecto
 
-- **Sitio publicado**: _pendiente de despliegue_
+- **Sitio en vivo**: [Ver Portfolio](https://landingpage14bz.netlify.app/)
 
-> `https://landingpage14bz.netlify.app/`
+## 📈 Estado y Evolución
 
-## Estado del proyecto
+El proyecto se encuentra en un estado funcional avanzado, cumpliendo los requisitos de:
 
-- **Estado actual**: Versión inicial funcional.
-- **Posibles mejoras futuras**:
-  - Añadir animaciones suaves (por ejemplo, en scroll o al pasar el mouse sobre elementos).
-  - Incluir validaciones más avanzadas en el formulario de contacto.
-  - Integrar un backend o servicio para procesar/envíar los mensajes del formulario.
-  - Optimizar imágenes y assets para mejorar el rendimiento.
+- [x] Diseño Responsivo (Mobile, Tablet, Desktop).
+- [x] Accesibilidad Web básica.
+
+**Próximos Pasos**:
+
+- Integración de animaciones de entrada con Scroll Reveal (manteniendo CSS puro).
+- Implementación de un modo oscuro (Dark Mode) mediante variables CSS dinámicas.
+- Optimización de imágenes de proyectos mediante formatos de nueva generación (WebP).
+
+### Desarrollado por Bryan Espinoza - 2026
