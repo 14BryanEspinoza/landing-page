@@ -1,208 +1,283 @@
 <!doctype html>
-<!-- Language  -->
 <html lang="es">
-  <!-- Head  -->
-
   <head>
-    <!-- Metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Bryan Espinoza" />
     <meta
       name="description"
-      content="Este es un proyecto para practicar mi nivel de html y css con herramientas como git, github y Warp"
+      content="Frontend developer especializado en JavaScript. Portfolio de Bryan Espinoza."
     />
-    <meta name="keywords" content="Landing Page, 14BryanEspinoza, Practica" />
-    <!-- Fonts -->
+    <meta name="keywords" content="Landing Page, 14BryanEspinoza, Frontend, JavaScript" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="14BryanEspinoza - Frontend Developer" />
+    <meta
+      property="og:description"
+      content="Frontend developer especializado en el ecosistema JavaScript."
+    />
+    <meta
+      property="og:image"
+      content="https://landingpage14bz.netlify.app/assets/prewiev.png"
+    />
+    <meta property="og:url" content="https://landingpage14bz.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="14BryanEspinoza - Frontend Developer" />
+    <meta
+      name="twitter:description"
+      content="Frontend developer especializado en el ecosistema JavaScript."
+    />
+    <meta
+      name="twitter:image"
+      content="https://landingpage14bz.netlify.app/assets/prewiev.png"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Style -->
+    <link rel="canonical" href="https://landingpage14bz.netlify.app/" />
     <link rel="stylesheet" href="Css/styles.css" />
-    <!-- Icon -->
     <link rel="shortcut icon" href="assets/code.png" type="image/x-icon" />
-    <!-- Title -->
     <title>14BryanEspinoza</title>
   </head>
 
-  <!-- Body  -->
-
   <body>
-    <!-- Nav -->
-    <nav class="nav">
+    <a href="#main" class="skip-link">Saltar al contenido principal</a>
+
+    <nav class="nav" aria-label="Principal">
       <div class="nav__logo">
-        <h1>B14S</h1>
+        <span>B14S</span>
       </div>
       <ul class="nav__list">
         <li><a href="#about">Sobre Mí</a></li>
-        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#stack">Stack</a></li>
         <li><a href="#projects">Proyectos</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>
     </nav>
-    <!-- Header -->
-    <header class="header">
-      <div class="header__text">
-        <h2>Desarrollador Frontend</h2>
-        <p>
-          Soy <span>Bryan Espinoza</span> desarrollador frontend con solidas
-          base en <strong>ecosistemas modernos JavaScript</strong> enfocado en
-          construir aplicaciones web escalables, mantenibles y centradas en el
-          usuario
-        </p>
-        <div class="text__links">
-          <a href="https://github.com/14BryanEspinoza" target="_blank"
-            >GitHub</a
-          >
-          <a href="https://www.linkedin.com/in/14bryanespinoza/" target="_blank"
-            >LinkedIn</a
-          >
-        </div>
-      </div>
-      <div class="header__img">
-        <img src="assets/Developer.jpg" alt="developer" />
-      </div>
-    </header>
-    <!-- Tech -->
-    <section class="tech">
-      <p>JavaScript | React | Astro</p>
-    </section>
-    <!-- About -->
-    <section id="about" class="about">
-      <h2>Sobre Mí</h2>
-      <div class="about__container">
-        <p>
-          Soy egresado de la carrera de Ing. En Sistemas, con una base sólida de
-          tecnologías frontend. Estoy evolucionando activamente hacia un perfil
-          de desarrollador full stack especializado en JavaScript, integrando
-          tecnologías backend, bases de datos e implementación en la nube en
-          proyectos reales.
-        </p>
-        <div class="container__progress">
-          <h3>Tecnologías en Proceso</h3>
-          <div class="progress__badged">
-            <span class="badged badged-js">JavaScript</span>
-            <span class="badged badged-ts">TypeScript</span>
-            <span class="badged badged-react">React</span>
-            <span class="badged badged-astro">Astro</span>
+
+    <main id="main">
+      <section class="header">
+        <div class="header__text">
+          <h1>JavaScript Development Specialized / Frontend Developer / AI-Assisted Development</h1>
+          <p>
+            <span class="highlight">Bryan Espinoza</span> — desarrollo frontend con
+            enfoque en el ecosistema JavaScript moderno y productividad asistida por IA.
+          </p>
+          <div class="header__links">
+            <a
+              href="https://github.com/14BryanEspinoza"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/14bryanespinoza/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Experience -->
-    <section id="experience" class="experience">
-      <h2>Experiencia y Educación</h2>
-      <div class="experience__list">
-        <article class="experience-item">
-          <span class="date">2020 - 2025</span>
-          <h3>Ingeniería en Sistemas</h3>
-          <p>
-            Egresado de la carrera de Ingeniería en Sistemas, con una sólida
-            base en tecnologías frontend.
-          </p>
-        </article>
-        <article class="experience-item">
-          <span class="date">2022 - Proyectos Reales</span>
-          <h3>Web Developer</h3>
-          <p>
-            Desarrollo de landing pages y aplicaciones web optimizadas para
-            clientes locales.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" class="projects">
-      <h2>Proyectos Destacados</h2>
-      <div class="projects__grid">
-        <article class="project-card">
+        <div class="header__img">
           <img
-            src="assets/img/preview.png"
-            alt="Vista previa del proyecto Landing Page"
-            class="project-card__img"
+            src="assets/Developer.jpg"
+            alt="Bryan Espinoza, frontend developer"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
           />
-          <div class="project-card__content">
-            <h3>Landing Page</h3>
+        </div>
+      </section>
+
+      <div class="tech">
+        <p>HTML5 | CSS3 | JavaScript</p>
+      </div>
+
+      <section id="about" class="about">
+        <h2>Sobre Mí</h2>
+        <div class="about__card">
+          <p>
+            Front-end developer especializado en el ecosistema JavaScript.
+            Desarrollo interfaces modernas, accesibles y optimizadas para la web.
+          </p>
+          <p>
+            Integro herramientas de IA como asistentes de codificación para
+            maximizar la productividad sin comprometer la calidad del código.
+          </p>
+          <p>
+            Mi próximo objetivo es evolucionar a un perfil <strong>Full Stack</strong>,
+            integrando backend, bases de datos y despliegue en la nube.
+          </p>
+        </div>
+      </section>
+
+      <section id="stack" class="stack">
+        <h2>Stack</h2>
+
+        <details open class="stack__group">
+          <summary>Lenguajes</summary>
+          <div class="stack__badges">
+            <span class="stack__badge">JavaScript</span>
+          </div>
+        </details>
+
+        <details open class="stack__group">
+          <summary>Markup &amp; Styling</summary>
+          <div class="stack__badges">
+            <span class="stack__badge">HTML5</span>
+            <span class="stack__badge">CSS3</span>
+            <span class="stack__badge">Markdown</span>
+          </div>
+        </details>
+
+        <details open class="stack__group">
+          <summary>Herramientas</summary>
+          <div class="stack__badges">
+            <span class="stack__badge">Git</span>
+            <span class="stack__badge">opencode</span>
+          </div>
+        </details>
+
+        <details class="stack__group">
+          <summary>Metodologías</summary>
+          <div class="stack__badges">
+            <span class="stack__badge">Architecture-First</span>
+            <span class="stack__badge">Mobile First</span>
+            <span class="stack__badge">BEM</span>
+            <span class="stack__badge">WCAG AA</span>
+            <span class="stack__badge">Atomic Commits</span>
+          </div>
+        </details>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>Proyectos</h2>
+
+        <div class="projects__grid">
+          <article class="project-card">
+            <h3>agent-stack</h3>
+            <ul class="project-card__tags">
+              <li><span class="project-card__tag project-card__tag--purple">Markdown</span></li>
+              <li><span class="project-card__tag project-card__tag--blue">Git</span></li>
+              <li><span class="project-card__tag">opencode</span></li>
+            </ul>
             <p>
-              Un portfolio premium construido con HTML5 y CSS3 puro, aplicando
-              Glassmorphism y diseño responsivo.
+              Skills modulares para asistentes de codificación por IA. Define
+              reglas, flujos de trabajo y estándares técnicos mediante archivos
+              Markdown estructurados que el agente carga según el contexto del
+              proyecto.
             </p>
-            <div class="text__links">
-              <a href="https://landingpage14bz.netlify.app/" target="_blank"
+            <div class="project-card__links">
+              <a
+                href="https://github.com/14BryanEspinoza/agent-stack"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Repositorio</a
+              >
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Ableton</h3>
+            <ul class="project-card__tags">
+              <li><span class="project-card__tag project-card__tag--blue">HTML5</span></li>
+              <li><span class="project-card__tag project-card__tag--purple">CSS3</span></li>
+            </ul>
+            <p>
+              Réplica visual de la página de Ableton, construida con HTML5 y CSS3
+              puro como parte de los retos de Frontend Practice. Diseño responsivo
+              y menú hamburguesa sin JavaScript.
+            </p>
+            <div class="project-card__links">
+              <a
+                href="https://14bryanespinoza.github.io/ableton/"
+                target="_blank"
+                rel="noopener noreferrer"
                 >Demo</a
               >
               <a
-                href="https://github.com/14BryanEspinoza/landingPage"
+                href="https://github.com/14BryanEspinoza/ableton"
                 target="_blank"
+                rel="noopener noreferrer"
                 >Código</a
               >
             </div>
-          </div>
-        </article>
-      </div>
-    </section>
-    <!-- Skills -->
-    <section class="skills">
-      <h2>Tecnologías</h2>
-      <div class="skills__grid">
-        <p>Antigravity</p>
-        <p>Warp</p>
-        <p>Git</p>
-        <p>GitHub</p>
-        <p>HTML5</p>
-        <p>CSS3</p>
-        <p>BEM Methodology</p>
-        <p>Responsive Design</p>
-      </div>
-    </section>
-    <!-- Contact -->
-    <section id="contact" class="contact">
-      <h2>Hablemos de tu Proyecto</h2>
-      <form action="#" class="form">
-        <div class="form__group">
-          <label for="nombre">Nombre Completo</label>
-          <input
-            type="text"
-            id="nombre"
-            name="nombre"
-            placeholder="Tu nombre artístico o real"
-            required
-          />
+          </article>
+
+          <article class="project-card">
+            <h3>Podia</h3>
+            <ul class="project-card__tags">
+              <li><span class="project-card__tag project-card__tag--blue">HTML5</span></li>
+              <li><span class="project-card__tag project-card__tag--purple">CSS3</span></li>
+            </ul>
+            <p>
+              Landing page informativa inspirada en Podia, con enfoque mobile-first
+              y CSS moderno: Container Queries, animaciones con
+              <code>animation-timeline</code> y 14 capas con <code>@layer</code>.
+            </p>
+            <div class="project-card__links">
+              <a
+                href="https://14bryanespinoza.github.io/podia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/14BryanEspinoza/podia"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Código</a
+              >
+            </div>
+          </article>
         </div>
-        <div class="form__group">
-          <label for="email">Correo Electrónico</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value="14bryanespinoza@gmail.com"
-            readonly
-          />
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <div class="contact__card">
+          <p>"Programa no para resolver problemas, sino para crear soluciones"</p>
+          <address>
+            <a href="mailto:14BryEspinoza@gmail.com" class="contact__email">
+              &#9993; 14BryEspinoza@gmail.com
+            </a>
+          </address>
         </div>
-        <div class="form__group">
-          <label for="mensaje">Tu Mensaje</label>
-          <textarea
-            id="mensaje"
-            name="mensaje"
-            placeholder="¿Cómo puedo ayudarte a llevar tu idea a la web?"
-            required
-          ></textarea>
-        </div>
-        <button type="submit">Enviar Mensaje</button>
-      </form>
-    </section>
-    <!-- Footer -->
+      </section>
+    </main>
+
     <footer class="footer">
-      <div class="footer__link">
-        <a href="https://github.com/14BryanEspinoza">GitHub</a>
-        <a href="https://www.linkedin.com/in/14bryanespinoza/">LinkedIn</a>
-      </div>
-      <p>Copyright &copy; 2026 - 14BryanEspinoza</p>
+      <ul class="footer__links">
+        <li><a
+          href="https://github.com/14BryanEspinoza"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        ></li>
+        <li><a
+          href="https://www.linkedin.com/in/14bryanespinoza/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn</a
+        ></li>
+        <li><a
+          href="https://x.com/14BryanEspinoza"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Twitter</a
+        ></li>
+        <li><a
+          href="https://www.facebook.com/14BryanEspinoza"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Facebook</a
+        ></li>
+      </ul>
+      <p>Copyright &copy; 2026 — 14BryanEspinoza</p>
     </footer>
   </body>
 </html>
