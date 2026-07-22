@@ -1,45 +1,90 @@
-# Landing Page - 14BryanEspinoza
+# Landing Page
 
-## 🚀 Descripción del Proyecto
+Portfolio personal como web developer especializado en el ecosistema
+JavaScript moderno. Mi carta de presentación profesional, con tema Tokyo Night,
+tipografía JetBrains Mono y enfoque mobile-first.
 
-El sitio funciona como la carta de presentación oficial de **Bryan Espinoza**, integrando:
+## Descripción
 
-- **Diseño**: Uso de **Glassmorphism**, gradientes armónicos y tipografía moderna (Google Fonts).
-- **Sección de Experiencia**: Línea de tiempo detallada con formación académica y trayectoria profesional.
-- **Sección de Proyectos**: Galería de proyectos destacados con tarjetas interactivas.
-- **Micro-interacciones**: Transiciones suaves y efectos hover que mejoran la experiencia de usuario (UX).
-- **Optimización Mobile-First**: Layout totalmente responsivo y adaptado para dispositivos táctiles.
+Mi página personal tipo portfolio donde presento mi perfil como desarrollador
+frontend. Incluye secciones de presentación, stack tecnológico con acordeones
+nativos, proyectos destacados con tarjetas interactivas y contacto directo.
+Todo el contenido está en español. Sin JavaScript.
 
-## 🛠️ Tecnologías y Metodologías
+## Tecnologías
 
-- **HTML5**: Estructura semántica avanzada para SEO y accesibilidad.
-- **CSS3 Puro**:
-  - **Variables CSS**: Sistema de diseño centralizado para colores, espacios y fuentes.
-  - **Flexbox & Grid**: Layouts robustos y modernos sin frameworks externos.
-  - **BEM Methodology**: Nomenclatura de clases estricta (`bloque__elemento--modificador`) para un CSS mantenibles.
-- **Git & GitHub**: Control de versiones y despliegue continuo.
+- **HTML5** — estructura semántica (`header`, `main`, `footer`, `nav`,
+  `section`, `article`, `address`)
+- **CSS3 puro** — sin preprocesadores ni frameworks
+- **CSS @layers** — organización modular en 10 capas
+- **CSS Custom Properties** — sistema de diseño con colores Tokyo Night
+- **CSS Grid** — grid de proyectos responsivo con `auto-fill` y `minmax()`
+- **CSS Flexbox** — header, nav, footer, links y badges
+- **BEM** — convención de nomenclatura para clases CSS
+- **Responsive Images** — `loading="eager"` en hero, `decoding="async"`
+- **Sin JavaScript** — cero dependencias del lado del cliente
 
-## 📱 Vista Previa
+## Características
 
-A continuación se muestra una referencia visual del diseño actual:
+- **Diseño mobile-first** — optimizado para móviles, tablet y desktop
+- **Tema Tokyo Night** — dark mode nativo vía variables CSS
+- **Stack interactivo** — acordeón con `<details>` y `<summary>` sin JS
+- **Grid de proyectos** — tarjetas con efecto hover en `translateY`
+- **Accesibilidad** — skip link, `:focus-visible`, `prefers-reduced-motion`,
+  estilos de impresión
+- **SEO** — meta tags, Open Graph, Twitter Cards, canonical
+- **Performance** — `content-visibility: auto` con `contain-intrinsic-size`
 
-![Vista previa de la landing page](assets/prewiev.png)
+## Estructura del proyecto
 
-## 🔗 Enlace al Proyecto
+```text
+.
+├── index.html           # Página principal (~347 líneas)
+├── css/
+│   └── styles.css       # Estilos (~659 líneas, 10 @layers)
+├── assets/
+│   ├── developer.png    # Imagen de perfil (hero)
+│   ├── favicon.png      # Favicon del sitio
+│   └── preview.png      # Preview para Open Graph
+├── .github/
+│   └── workflows/
+│       └── deploy.yml   # Deploy a GitHub Pages
+├── .gitignore
+└── README.md
+```
 
-- **Sitio en vivo**: [Ver Proyecto](https://landingpage14bz.netlify.app/)
+## Secciones de la página
 
-## 📈 Estado y Evolución
+1. **Nav** — sticky con logo B14S, enlaces a Sobre Mí, Stack, Proyectos,
+   Contacto
+2. **Hero** — título profesional, descripción, imagen de perfil, enlaces a
+   GitHub y LinkedIn
+3. **Tech bar** — tecnologías principales (HTML5, CSS3, JavaScript)
+4. **Sobre Mí** — tarjeta con mi perfil profesional y objetivo Full Stack
+5. **Stack** — 4 acordeones: Lenguajes, Markup & Styling, Herramientas,
+   Metodologías
+6. **Proyectos** — 3 tarjetas: agent-stack (skills para IA), Ableton (réplica
+   visual), Podia (landing informativa)
+7. **Contacto** — cita motivacional y email con botón de acción
+8. **Footer** — enlaces sociales (GitHub, LinkedIn, Twitter, Facebook) y
+   copyright
 
-El proyecto se encuentra en un estado funcional avanzado, cumpliendo los requisitos de:
+## Breakpoints
 
-- [x] Diseño Responsivo (Mobile, Tablet, Desktop).
-- [x] Accesibilidad Web básica.
+| Nombre  | Valor   | Diseño                                              |
+| ------- | ------- | --------------------------------------------------- |
+| Mobile  | < 768px | Layout apilado, hero centrado, grids 1 columna      |
+| Tablet  | 768px+  | Hero horizontal (row-reverse), links a la izquierda |
+| Desktop | 1024px+ | Hero ampliado al 90%, imagen de perfil más grande   |
 
-**Próximos Pasos**:
+## Cómo ver el proyecto
 
-- Integración de animaciones de entrada con Scroll Reveal (manteniendo CSS puro).
-- Implementación de un modo oscuro (Dark Mode) mediante variables CSS dinámicas.
-- Optimización de imágenes de proyectos mediante formatos de nueva generación (WebP).
+No requiere instalación ni build. Abrir `index.html` directamente en el
+navegador.
 
-### Desarrollado por Bryan Espinoza - 2026
+- Opción 1: Abrir el archivo localmente
+- Opción 2: [Ver en GitHub Pages](https://14bryanespinoza.github.io/landing-page/)
+
+---
+
+Bryan Espinoza — 2026
